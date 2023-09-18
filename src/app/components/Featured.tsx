@@ -17,7 +17,7 @@ const Featured = () => {
               </div>
             )}
 
-            <div className="flex-1 flex flex-col items-center justify-center  text-center gap-6">
+            <div className="flex-1 flex flex-col items-center justify-center text-center gap-6">
               <h1 className="text-xl font-bold uppercase xl:text-2xl 2xl:text-3xl">{item.title}</h1>
               <p className="p-4 ">{item.desc}</p>
               <span className="text-xl font-bold">PKR {item.price}</span>
